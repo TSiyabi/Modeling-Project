@@ -9,11 +9,12 @@ This project simulates a real-world data science task. You will collect property
 
 ## Steps Taken in Data Collection and Cleaning
 1. Ran the API and extracted property data in JSON format.
-2. Merged data from both APIs.
-3. Cleaned the data by dropping nulls and duplicates.
-4. Changed data types as needed.
-5. Filled in missing columns.
-6. Deleted and dropped unwanted data.
+2. Used fast api to genrate dummy data
+3. Merged data from both APIs.
+4. Cleaned the data by dropping nulls and duplicates.
+5. Changed data types as needed.
+6. Filled in missing columns.
+7. Deleted and dropped unwanted data.
 
 ## Modeling Approach and Results
 - Used Decision Tree, Random Forest, and XGBoost algorithms for predictive modeling.
