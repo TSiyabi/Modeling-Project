@@ -15,16 +15,7 @@ This project simulates a real-world data science task. You will collect property
 5. Filled in missing columns.
 6. Deleted and dropped unwanted data.
 
-## How to Run and Interact with the Cleaning API
-- Start the local cleaning API using the provided script.
-- Send your raw property data (JSON) to the API endpoint.
-- Receive cleaned and processed data in response.
-
 ## Modeling Approach and Results
 - Used Decision Tree, Random Forest, and XGBoost algorithms for predictive modeling.
-- XGBoost gave the best results (see results section in code/notebook for metrics).
+- Random Forest gave the best results (see results section in code/notebook for metrics).
 
-## How to Run and Interact with the Predictive Modeling API
-- Start the predictive modeling API using the provided script.
-- Send cleaned property data to the API endpoint.
-- Receive price predictions
